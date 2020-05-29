@@ -29,6 +29,7 @@ COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 COPY index.html /var/www/unified-origin/index.html
 COPY clientaccesspolicy.xml /var/www/unified-origin/clientaccesspolicy.xml
 COPY crossdomain.xml /var/www/unified-origin/crossdomain.xml
+COPY player /var/www/unified-origin/player/
 
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
